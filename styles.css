@@ -208,26 +208,15 @@ body {
     display: block;
   }
 }
-/* Verhindert Lila-Färbung und Unterstreichung bei besuchten und unbesuchten Links */
 a,
 a:link,
-a:visited {
-  color: inherit;           /* übernimmt Textfarbe des Elternelements */
-  text-decoration: none;    /* entfernt Unterstreichung */
-}
-
-/* Kein Farbwechsel, keine Unterstreichung, kein Glow beim Hover/Focus/Active */
+a:visited,
 a:hover,
 a:focus,
 a:active {
-  color: inherit;           /* bleibt bei Originalfarbe */
-  text-decoration: none;    /* bleibt ununterstrichen */
-  outline: none;            /* entfernt Fokus-Rahmen */
-  box-shadow: none;         /* entfernt jegliches Glow/Shine */
+  color: inherit !important;        
+  text-decoration: none !important;  
+  outline: none !important;       
+  box-shadow: none !important;       
+  cursor: pointer;                      
 }
-
-/* Optional: setzt Cursor auf Pointer */
-a {
-  cursor: pointer;
-}
-Er
