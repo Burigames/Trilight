@@ -75,6 +75,10 @@ body {
   display: inline-flex;
   align-items: center;
 }
+
+.logo span {
+  font-size
+
 .nav {
   display: flex;
 }
